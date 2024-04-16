@@ -14,3 +14,9 @@ yearsCode = "#24"
 const idPass = "password"
 
 document.getElementById(idPass).innerHTML = pass + " " + firstName + " " + lastName + " " + favoriteColor + " " + yearsCode
+
+// Alert con Password finale
+const Nome = "Giuseppe"
+const cognome = "De Rosa"
+const colore = "Nero"
+alert (pass + " " + Nome + " " + cognome + " " + colore + " " + yearsCode)
