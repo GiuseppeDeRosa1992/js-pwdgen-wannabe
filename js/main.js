@@ -10,4 +10,4 @@ yearsCode = "#24"
 //id che devo modificare
 const idPass = "password"
 
-document.getElementById(idPass).innerHTML = firstName + lastName + favoriteColor + yearsCode
+document.getElementById(idPass).innerHTML = firstName + " " + lastName + " " + favoriteColor + " " + yearsCode
