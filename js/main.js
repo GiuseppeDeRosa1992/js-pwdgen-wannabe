@@ -4,10 +4,13 @@ const firstName = prompt ("Inserisci il tuo Nome");
 const lastName = prompt ("Inserisci il tuo Cognome");
 //chiedo all'utente il colore preferito
 const favoriteColor = prompt ("Inserisci il tuo Colore preferito");
-// Stringa Fissa
+
+// Stringa Fissa Iniziale
+pass = "La tua Password è?"
+// Stringa Fissa Finale
 yearsCode = "#24"
 
 //id che devo modificare
 const idPass = "password"
 
-document.getElementById(idPass).innerHTML = firstName + " " + lastName + " " + favoriteColor + " " + yearsCode
+document.getElementById(idPass).innerHTML = pass + " " + firstName + " " + lastName + " " + favoriteColor + " " + yearsCode
